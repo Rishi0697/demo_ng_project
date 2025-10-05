@@ -1,0 +1,5 @@
+<h1>I am Parent Component</h1>
+
+<app-child [dataFromparent] = "empDetails" (infofromchild)="recievedData($event)"></app-child>
+
+<p>Info recieved from child {{gotMessage}}</p>
